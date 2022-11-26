@@ -12,7 +12,8 @@ The method is named after Julius Caesar, who used it in his private corresponden
 https://en.wikipedia.org/wiki/Caesar_cipher
 
 The message in this program is shifted by one character each step allowing to check if the 
-code-message was encrypted with the Caesar cipher even if you don't know the ROT-parameter (the shift size).
+code-message was encrypted with the Caesar cipher even if you don't know the ROT-parameter
+(the shift size).
 
 ### Supported languages
 The app supports several languages allowing to use multi-lingual encryption. All supported 
@@ -20,10 +21,10 @@ languages are stored at ...data/lang.txt, giving an option to freely modify the 
 library, as directly by editing the .txt file as within the program interface 
 (add_new_language command may be entered instead of a message to open the dialogue)
 
-The amount of languages to be active at the same time is not restricted unless they don't have the same symbols in their
-alphabets. Naturally cyrillic languages work well with latin languages and hieroglyph-based
-alphabets. These three normally will work together, meaning that you can enter a multi-lingual
-phrase to work with.
+The amount of languages to be active at the same time is not restricted unless they don't have 
+the same symbols in their alphabets. Naturally cyrillic languages work well with latin languages
+and hieroglyph-based alphabets. These three normally will work together, meaning that you can 
+enter a multi-lingual phrase to work with.
 However if the symbols of the newly selected alphabet coincide with any of the previously
 active, the newly chosen alphabet will replace the corresponding language and will be used
 instead.
